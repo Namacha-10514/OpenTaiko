@@ -969,7 +969,6 @@ namespace TJAPlayer3
 										sb.Append( ", lvGt=" + c曲リストノード.arスコア[ i ].譜面情報.レベル.Guitar );
 										sb.Append( ", lvBs=" + c曲リストノード.arスコア[ i ].譜面情報.レベル.Bass );
 										sb.Append( ", lvHide=" + c曲リストノード.arスコア[ i ].譜面情報.レベルを非表示にする );
-										sb.Append( ", type=" + c曲リストノード.arスコア[ i ].譜面情報.曲種別 );
 										sb.Append(", bpm=" + c曲リストノード.arスコア[i].譜面情報.Bpm);
 										sb.Append(", basebpm=" + c曲リストノード.arスコア[i].譜面情報.BaseBpm);
 										sb.Append(", minbpm=" + c曲リストノード.arスコア[i].譜面情報.MinBpm);

@@ -13,8 +13,7 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>
-    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>Namacha.pfx</AssemblyOriginatorKeyFile>
     <ApplicationIcon>
     </ApplicationIcon>
     <FileUpgradeFlags>
@@ -214,6 +213,9 @@
     <PackageReference Include="SharpDX.Mathematics">
       <Version>4.2.0</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Namacha.pfx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

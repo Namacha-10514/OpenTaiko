@@ -411,8 +411,6 @@ namespace TJAPlayer3
 
             this.bIsAutoPlay = TJAPlayer3.ConfigIni.bAutoPlay;                                  // #24239 2011.1.23 yyagi
 
-            //this.bIsAutoPlay.Guitar = CDTXMania.ConfigIni.bギターが全部オートプレイである;
-            //this.bIsAutoPlay.Bass = CDTXMania.ConfigIni.bベースが全部オートプレイである;
             //			this.nRisky = CDTXMania.ConfigIni.nRisky;											// #23559 2011.7.28 yyagi
 
             for (int i = 0; i < TJAPlayer3.ConfigIni.nPlayerCount; i++)
@@ -580,12 +578,12 @@ namespace TJAPlayer3
 		//-----------------
 		public class CHITCOUNTOFRANK
 		{
-			// Fields
-			public int Good;
+            // Fields
+            public int Perfect;
+            public int Good;
 			public int Great;
-			public int Miss;
-			public int Perfect;
-			public int Poor;
+            public int Poor;
+            public int Miss;
 
 			// Properties
 			public int this[ int index ]
